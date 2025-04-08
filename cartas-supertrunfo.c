@@ -1,5 +1,4 @@
 #include <stdio.h>
- #include <stdlib.h>
  
  int main() {
      // Definição das variáveis das cidades
@@ -57,8 +56,35 @@
  
      printf("Digite a quantidade de pontos turísticos:\n ");
      scanf("%d", &pontosTuristicos2);
+
+     
+     if (populacao1 > populacao2){
+        printf("populacao1 e maior que populacao2\n");
+        /* code */
+     }else{
+        printf("populacao1 e menor que populacao2\n");
+     }
+     if (area1 > area2){
+        printf("area1 e maior que area2\n");
+        /* code */
+     }
+     if (pib1 > pib2){
+        printf("pib1 e maior que pib2\n");
+        /* code */
+     }
+     if (pontosTuristicos1 > pontosTuristicos2){
+        printf("pontosturisticos1 e maior que pontosturisticos2\n");
+        /* code */
+     }
+     
+
+
+
+
+
+
  
-     system ("PAUSE");
+     
 
      return 0;
  }
