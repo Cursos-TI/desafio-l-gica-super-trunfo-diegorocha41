@@ -57,39 +57,35 @@
      printf("Digite a quantidade de pontos turísticos:\n ");
      scanf("%d", &pontosTuristicos2);
 
-     
+     //comparacao da populacao.
      if (populacao1 > populacao2){
-        printf("populacao1 e maior que populacao2\n");
-        /* code */
+        printf("Cidade1 tem maior populacao!\n");
+        
      }else{
-        printf("populacao1 e menor que populacao2\n");
+        printf("cidade2 tem maior populacao!\n");
      }
+     //comparacao da area territorial.
      if (area1 > area2){
-        printf("area1 e maior que area2\n");
-        /* code */
+        printf("Cidade1 tem maior area!\n");
+        
+     }else{
+        printf("Cidade2 tem maior area!\n");
      }
+     // coparacao do pib
      if (pib1 > pib2){
-        printf("pib1 e maior que pib2\n");
-        /* code */
+        printf("Cidade1 tem o maior pib!\n");
+      
+     }else{
+      printf("Cidade2 tem o maior pib!\n");
      }
+     // comparacao dos pontos turisticos.
      if (pontosTuristicos1 > pontosTuristicos2){
-        printf("pontosturisticos1 e maior que pontosturisticos2\n");
-        /* code */
+        printf("Cidade1 tem mais pontos turisticos!\n");
+        
+     }else{
+        printf("Cidade2 tem mais pontos turisticos!\n");
      }
-     
-
-
-
-
-
-
- 
      
 
      return 0;
  }
-
-
-
-
-
